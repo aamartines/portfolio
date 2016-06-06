@@ -73,7 +73,7 @@
 }
 
 .top {
-  padding: 15px 30px 20px 30px;
+  padding: 15px 30px 10px 30px;
 }
 
 .title {
@@ -87,8 +87,33 @@ h1 {
   font-weight: 300;
 }
 
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+hr {
+  width: 75px;
+}
+
+a {
+  color: #f8b038;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f66609;
+}
+
 .subtitle {
   text-align: right;
+  margin-top: 3px;
+  margin-bottom: 0px;
 }
 
 .subtitle-text.middle {
@@ -97,7 +122,6 @@ h1 {
 
 .subtitle-text {
   font-size: 1em;
-  font-family: 'Lato', sans-serif;
   color: #f66609;
 }
 
@@ -113,16 +137,29 @@ h1 {
   margin-bottom: 0px;
 }
 
-.highlight {
+.about {
+  margin: 0px 50px 50px 50px;
+}
+
+.about h2 {
+  margin-bottom: 0px;
+}
+
+.about hr {
+  border-top: 1px solid #f9c661;
+}
+
+.featured {
   background-color: #f9c661;
   padding-bottom: 20px;
   margin-bottom: 0px;
 }
 
+.featured hr {
+  border-top: 1px solid #fff;
+}
+
 .featured-heading {
-  font-size: 1.5em;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
   color: #fff;
 }
 
@@ -134,14 +171,13 @@ h1 {
 .featured-title {
   margin-top: 10px;
   font-size: 1em;
-  font-family: 'Lato', sans-serif;
   text-align: center;
   color: #fff;
   padding-bottom: 50px;
 }
 
 footer {
-  background-color: #626262;
+  background-color: #444;
 }
 
 .footer {
@@ -158,4 +194,11 @@ footer {
   border-radius: 50%;
   text-align: center;
   margin: 10px;
+}
+
+.social:hover {
+  background-color: #fff;
+  color: #444;
+  border-color: #444;
+  transition: all .3s ease;
 }
