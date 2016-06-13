@@ -110,6 +110,10 @@ a:hover {
   color: #f66609;
 }
 
+img, embed, object, video {
+  max-width: 100%;
+}
+
 .subtitle {
   text-align: right;
   margin-top: 3px;
